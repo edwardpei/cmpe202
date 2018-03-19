@@ -1,0 +1,20 @@
+# started on Fri Mar 16 08:15:20 2018
+
+
+ Performance counter stats for './demo_toy_problem.py 2 2':
+
+     136857.606844      task-clock (msec)         #    2.208 CPUs utilized          
+             15353      context-switches          #    0.112 K/sec                  
+               602      cpu-migrations            #    0.004 K/sec                  
+          29925403      page-faults               #    0.219 M/sec                  
+      434679148418      cycles                    #    3.176 GHz                      (13.93%)
+      630154776300      instructions              #    1.45  insn per cycle           (23.44%)
+       57079605185      branches                  #  417.073 M/sec                    (16.28%)
+         415736645      branch-misses             #    0.73% of all branches          (14.66%)
+      156121423342      L1-dcache-loads           # 1140.758 M/sec                    (1.83%)
+       11503338084      L1-dcache-load-misses     #    7.37% of all L1-dcache hits    (6.53%)
+        2263922406      LLC-loads                 #   16.542 M/sec                    (8.99%)
+         978935672      LLC-load-misses           #   43.24% of all LL-cache hits     (9.59%)
+
+      61.979978978 seconds time elapsed
+

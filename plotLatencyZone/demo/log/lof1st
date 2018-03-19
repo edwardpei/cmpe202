@@ -1,0 +1,143 @@
+C0    BE             Backend_Bound:                     40.96 % Slots     [  5.00%] <==
+	This category represents slots fraction where no uops are
+	being delivered due to a lack of required resources for
+	accepting new uops in the Backend...
+C0    Info.Core      ILP:                                2.79 CoreMetric  [  5.00%]
+	Instruction-Level-Parallelism (average number of uops
+	executed when there is at least 1 uop executed)
+C0    Info.Core      Branch_Misprediction_Cost:        142.62 CoreMetric  [  5.00%]
+	Branch Misprediction Cost: Fraction of Issue Slots wasted
+	per branch misprediction
+C0    Info.Memory    Page_Walks_Utilization:             0.04 CoreMetric  [  5.00%]
+	Utilization of the core's Page Walker(s) serving STLB misses
+	triggered by instruction/Load/Store accesses
+C0    Info.System    SMT_2T_Utilization:                 0.83 CoreMetric  [  5.00%]
+	Fraction of cycles where both hardware threads were active
+C0-T0 Info.Thread    BPTB:                               1.67 Metric      [  5.00%]
+	Branch instructions per taken branch...
+C0-T0 Info.Thread    IFetch_Line_Utilization:            0.19 Metric      [  5.00%]
+	Rough Estimation of fraction of fetched lines bytes that
+	were likely consumed by program instructions
+C0-T0 Info.Thread    DSB_Coverage:                       0.75 Metric      [  5.00%]
+	Fraction of Uops delivered by the DSB (aka Decoded ICache;
+	or Uop Cache)...
+C0-T0 Info.Thread    LSD_Coverage:                       0.02 Metric      [  5.00%]
+	Fraction of Uops delivered by the LSD (Loop Stream Detector;
+	aka Loop Cache)
+C0-T0 Info.Core      BAClear_Cost:                      17.22 Metric      [  5.00%]
+	Average Branch Address Clear Cost (fraction of cycles)
+C0-T0 Info.Memory    TSX_Transactional_Cycles:           1.00 Metric      [  5.00%]
+	Fraction of cycles where the CPU is running in Transactional
+	Memory mode (HLE or RTM)
+C0-T0 Info.Memory    TSX_Aborted_Cycles:                 0.00 Metric      [  5.00%]
+C0-T0 Info.System    MEM_Request_Latency:              227.41 Metric      [ 49.99%]
+	Average latency of all requests to external memory (in
+	Uncore cycles)
+C0-T0 Info.System    MEM_Parallel_Requests:             20.63 Metric      [ 25.03%]
+	Average number of parallel requests to external memory...
+C0-T0 Info.System    Time:                             160.78 Count      
+	Run duration time in seconds
+C0-T0 Info.System    Socket_CLKS:               474,193,955,311 Count       [100.00%]
+C1    BE             Backend_Bound:                     41.17 % Slots     [  5.00%] <==
+C1    Info.Core      ILP:                                2.79 CoreMetric  [  5.00%]
+C1    Info.Core      Branch_Misprediction_Cost:        139.75 CoreMetric  [  5.00%]
+C1    Info.Memory    Page_Walks_Utilization:             0.04 CoreMetric  [  5.00%]
+C1    Info.System    SMT_2T_Utilization:                 0.83 CoreMetric  [  5.00%]
+C1-T0 Info.Thread    BPTB:                               1.66 Metric      [  5.00%]
+C1-T0 Info.Thread    IFetch_Line_Utilization:            0.20 Metric      [  5.00%]
+C1-T0 Info.Thread    DSB_Coverage:                       0.74 Metric      [  5.00%]
+C1-T0 Info.Thread    LSD_Coverage:                       0.02 Metric      [  5.00%]
+C1-T0 Info.Core      BAClear_Cost:                      17.43 Metric      [  5.00%]
+C1-T0 Info.Memory    TSX_Transactional_Cycles:           1.00 Metric      [  5.00%]
+C1-T0 Info.Memory    TSX_Aborted_Cycles:                 0.00 Metric      [  5.00%]
+C1-T0 Info.System    MEM_Request_Latency:              227.41 Metric      [ 49.99%]
+C1-T0 Info.System    MEM_Parallel_Requests:             20.63 Metric      [ 25.03%]
+C1-T0 Info.System    Time:                             160.78 Count      
+C1-T0 Info.System    Socket_CLKS:               474,193,955,311 Count       [100.00%]
+C2    BE             Backend_Bound:                     40.88 % Slots     [  5.00%] <==
+C2    Info.Core      ILP:                                2.79 CoreMetric  [  5.00%]
+C2    Info.Core      Branch_Misprediction_Cost:        137.17 CoreMetric  [  5.00%]
+C2    Info.Memory    Page_Walks_Utilization:             0.04 CoreMetric  [  5.00%]
+C2    Info.System    SMT_2T_Utilization:                 0.82 CoreMetric  [  5.00%]
+C2-T0 Info.Thread    BPTB:                               1.66 Metric      [  5.00%]
+C2-T0 Info.Thread    IFetch_Line_Utilization:            0.19 Metric      [  5.00%]
+C2-T0 Info.Thread    DSB_Coverage:                       0.76 Metric      [  5.00%]
+C2-T0 Info.Thread    LSD_Coverage:                       0.02 Metric      [  5.00%]
+C2-T0 Info.Core      BAClear_Cost:                      16.90 Metric      [  5.00%]
+C2-T0 Info.Memory    TSX_Transactional_Cycles:           1.00 Metric      [  5.00%]
+C2-T0 Info.Memory    TSX_Aborted_Cycles:                 0.00 Metric      [  5.00%]
+C2-T0 Info.System    MEM_Request_Latency:              227.41 Metric      [ 49.99%]
+C2-T0 Info.System    MEM_Parallel_Requests:             20.63 Metric      [ 25.03%]
+C2-T0 Info.System    Time:                             160.78 Count      
+C2-T0 Info.System    Socket_CLKS:               474,193,955,311 Count       [100.00%]
+C3    BE             Backend_Bound:                     40.81 % Slots     [  5.00%] <==
+C3    Info.Core      ILP:                                2.80 CoreMetric  [  5.00%]
+C3    Info.Core      Branch_Misprediction_Cost:        133.39 CoreMetric  [  5.00%]
+C3    Info.Memory    Page_Walks_Utilization:             0.05 CoreMetric  [  5.00%]
+C3    Info.System    SMT_2T_Utilization:                 0.81 CoreMetric  [  5.00%]
+C3-T0 Info.Thread    BPTB:                               1.61 Metric      [  5.00%]
+C3-T0 Info.Thread    IFetch_Line_Utilization:            0.19 Metric      [  5.00%]
+C3-T0 Info.Thread    DSB_Coverage:                       0.72 Metric      [  5.00%]
+C3-T0 Info.Thread    LSD_Coverage:                       0.02 Metric      [  5.00%]
+C3-T0 Info.Core      BAClear_Cost:                      16.76 Metric      [  5.00%]
+C3-T0 Info.Memory    TSX_Transactional_Cycles:           1.00 Metric      [  5.00%]
+C3-T0 Info.Memory    TSX_Aborted_Cycles:                 0.00 Metric      [  5.00%]
+C3-T0 Info.System    MEM_Request_Latency:              227.41 Metric      [ 49.99%]
+C3-T0 Info.System    MEM_Parallel_Requests:             20.63 Metric      [ 25.03%]
+C3-T0 Info.System    Time:                             160.78 Count      
+C3-T0 Info.System    Socket_CLKS:               474,193,955,311 Count       [100.00%]
+C0-T1 Info.Thread    BPTB:                               1.69 Metric      [  5.00%]
+C0-T1 Info.Thread    IFetch_Line_Utilization:            0.20 Metric      [  5.00%]
+C0-T1 Info.Thread    DSB_Coverage:                       0.73 Metric      [  5.00%]
+C0-T1 Info.Thread    LSD_Coverage:                       0.02 Metric      [  5.00%]
+C0-T1 Info.Core      BAClear_Cost:                      17.46 Metric      [  5.00%]
+C0-T1 Info.Memory    TSX_Transactional_Cycles:           1.00 Metric      [  5.00%]
+C0-T1 Info.Memory    TSX_Aborted_Cycles:                 0.00 Metric      [  5.00%]
+C0-T1 Info.System    MEM_Request_Latency:              227.41 Metric      [ 49.99%]
+C0-T1 Info.System    MEM_Parallel_Requests:             20.63 Metric      [ 25.03%]
+C0-T1 Info.System    Time:                             160.78 Count      
+C0-T1 Info.System    Socket_CLKS:               474,193,955,311 Count       [100.00%]
+C1-T1 Info.Thread    BPTB:                               1.68 Metric      [  5.00%]
+C1-T1 Info.Thread    IFetch_Line_Utilization:            0.20 Metric      [  5.00%]
+C1-T1 Info.Thread    DSB_Coverage:                       0.74 Metric      [  5.00%]
+C1-T1 Info.Thread    LSD_Coverage:                       0.02 Metric      [  5.00%]
+C1-T1 Info.Core      BAClear_Cost:                      17.27 Metric      [  5.00%]
+C1-T1 Info.Memory    TSX_Transactional_Cycles:           1.00 Metric      [  5.00%]
+C1-T1 Info.Memory    TSX_Aborted_Cycles:                 0.00 Metric      [  5.00%]
+C1-T1 Info.System    MEM_Request_Latency:              227.41 Metric      [ 49.99%]
+C1-T1 Info.System    MEM_Parallel_Requests:             20.63 Metric      [ 25.03%]
+C1-T1 Info.System    Time:                             160.78 Count      
+C1-T1 Info.System    Socket_CLKS:               474,193,955,311 Count       [100.00%]
+C2-T1 Info.Thread    BPTB:                               1.64 Metric      [  5.00%]
+C2-T1 Info.Thread    IFetch_Line_Utilization:            0.20 Metric      [  5.00%]
+C2-T1 Info.Thread    DSB_Coverage:                       0.74 Metric      [  5.00%]
+C2-T1 Info.Thread    LSD_Coverage:                       0.02 Metric      [  5.00%]
+C2-T1 Info.Core      BAClear_Cost:                      17.64 Metric      [  5.00%]
+C2-T1 Info.Memory    TSX_Transactional_Cycles:           1.00 Metric      [  5.00%]
+C2-T1 Info.Memory    TSX_Aborted_Cycles:                 0.00 Metric      [  5.00%]
+C2-T1 Info.System    MEM_Request_Latency:              227.41 Metric      [ 49.99%]
+C2-T1 Info.System    MEM_Parallel_Requests:             20.63 Metric      [ 25.03%]
+C2-T1 Info.System    Time:                             160.78 Count      
+C2-T1 Info.System    Socket_CLKS:               474,193,955,311 Count       [100.00%]
+C3-T1 Info.Thread    BPTB:                               1.69 Metric      [  5.00%]
+C3-T1 Info.Thread    IFetch_Line_Utilization:            0.22 Metric      [  5.00%]
+C3-T1 Info.Thread    DSB_Coverage:                       0.73 Metric      [  5.00%]
+C3-T1 Info.Thread    LSD_Coverage:                       0.02 Metric      [  5.00%]
+C3-T1 Info.Core      BAClear_Cost:                      16.89 Metric      [  5.00%]
+C3-T1 Info.Memory    TSX_Transactional_Cycles:           1.00 Metric      [  5.00%]
+C3-T1 Info.Memory    TSX_Aborted_Cycles:                 0.00 Metric      [  5.00%]
+C3-T1 Info.System    MEM_Request_Latency:              227.41 Metric      [ 49.99%]
+C3-T1 Info.System    MEM_Parallel_Requests:             20.63 Metric      [ 25.03%]
+C3-T1 Info.System    Time:                             160.78 Count      
+C3-T1 Info.System    Socket_CLKS:               474,193,955,311 Count       [100.00%]
+S0    Info.System    MEM_BW_Use:                        14.22 SystemMetric  [ 49.98%]
+
+sudo ./toplev.py -l4 --metrics/-IPC ./hello.py
+sudo ./toplev.py -l4 -m-IPC ./hello.py
+sudo ./toplev.py -l4 -m IPC ./hello.py
+
+ L1_Bound Retiring SMT Memory_BW Data_Sharing Memory_Lat TSX Ports_Utilization LSD Power  Frontend_Bandwidth Backend_Bound TopDownL1 TopDownL2 Frontend_Latency Pipeline Branches Frontend_Bandwidth Microcode_Sequencer Frontend_Bound Machine_Clears Summary Memory_Bound TLB Cache_Misses Bad_Speculation DSB Branch_Mispredicts Port_6 Port_5 Instruction_Type Unknown_Branches Store_Bound
+
+
+
+
