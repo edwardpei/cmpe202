@@ -1,5 +1,7 @@
 #!/bin/bash
-
+mkdir plot
+mkdir visualOutput
+mkdir ./plot
 for i in 1 2 4 8
 do
 	for j in 1 2 4 8
